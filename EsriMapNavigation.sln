@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32428.221
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EsriMapNavigation.Android", "EsriMapNavigation\EsriMapNavigation.Android\EsriMapNavigation.Android.csproj", "{D4E536AD-2F71-49A0-92AF-5E28252967E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EsriMapNavigation", "EsriMapNavigation\EsriMapNavigation\EsriMapNavigation.csproj", "{0F78B054-F8A2-41CC-8B18-AFD3128B661A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D4E536AD-2F71-49A0-92AF-5E28252967E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4E536AD-2F71-49A0-92AF-5E28252967E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4E536AD-2F71-49A0-92AF-5E28252967E6}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D4E536AD-2F71-49A0-92AF-5E28252967E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4E536AD-2F71-49A0-92AF-5E28252967E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4E536AD-2F71-49A0-92AF-5E28252967E6}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{0F78B054-F8A2-41CC-8B18-AFD3128B661A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F78B054-F8A2-41CC-8B18-AFD3128B661A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F78B054-F8A2-41CC-8B18-AFD3128B661A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F78B054-F8A2-41CC-8B18-AFD3128B661A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {18056F87-CBDA-44DE-BEBE-39F6E2D1C3DC}
+	EndGlobalSection
+EndGlobal

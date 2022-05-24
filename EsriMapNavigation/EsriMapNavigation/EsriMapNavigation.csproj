@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>portable</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Esri.ArcGISRuntime.Xamarin.Forms" Version="100.10.0" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2196" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
+    <PackageReference Include="Xamarin.Forms.Maps" Version="5.0.0.2196" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Esri.ArcGISRuntime.Xamarin.Forms">
+      <HintPath>..\..\..\..\..\.nuget\packages\esri.arcgisruntime.xamarin.forms\100.10.0\lib\monoandroid90\Esri.ArcGISRuntime.Xamarin.Forms.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="MapPageForms.xaml.cs">
+      <DependentUpon>MapPageForms.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="MapPageEsri.xaml.cs">
+      <DependentUpon>MapPageEsri.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+</Project>
